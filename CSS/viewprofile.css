@@ -1,0 +1,341 @@
+body{
+  margin-top: 0px;
+  padding: 0;
+  height: 500px;
+  background-color: white;
+ 
+  
+ 
+}
+
+#Dashboard-nav{
+  display: -webkit-box;
+  width: 1073px;
+  height: 50px;
+  margin-left: 161px;
+  background-color: #FF5F1F; 
+}
+
+#Dashsun{
+height: 38px;
+padding-bottom: 5px;
+margin-top: 5px;
+padding-top: 0px;
+margin-left: 830px;
+padding-left: 15px;
+padding-right: 10px;
+border-right: solid 2px #ffffff;
+border-left: solid 2px #ffffff;
+font-family: 'Roboto'; 
+
+}
+
+.nav-sun{
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600; 
+}
+
+
+.Admin{
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 600; 
+  margin-top: 8px;
+  position: absolute;
+}
+
+
+#view{
+  color: #fff;
+  font-size: 10px;
+  margin-left: 2px;
+  margin-top: 3px;
+  font-family: 'Roboto';
+  position: absolute;
+ 
+}
+
+#Dashbhanu{
+  margin-top: 7px;
+  margin-left: 10px; 
+  cursor: pointer;      
+}
+#dashboardprofilelogo{
+  width: 33px;
+  height: 33px;
+  position: relative;
+  top: -35px;
+  right: -66px;
+  border-radius: 50px;
+  border: solid 2px white;
+ 
+}
+
+#logouticon{
+  margin-top: 16px;
+  margin-left: 1029px;
+  cursor: pointer;
+  position: absolute;
+}
+#sidebar{
+  width: 160px;
+  height: 703px;
+ 
+  font-family: 'Roboto';
+  font-size: 13px;
+  position: relative;
+  top: -50px;
+ 
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+#ujjain-logo{
+  height: 65px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ 
+
+}
+
+
+#home-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer;         
+  font-family: 'Roboto'; 
+  font-size: 12px;     
+  font-weight: 600;
+}
+#hotel-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+#pujabooking-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#ujjain_jarshan-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+#omkareshwar-tour-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+#maa-baglamukhi-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+#taxi-services-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+#airport-rides-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+#about-ujjain-div{
+  height: 35px;
+  padding-left: 22px;
+  padding-top: 12px;
+  cursor: pointer; 
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+}
+
+#demo{
+  display: flex;
+  font-family: 'Roboto';
+
+
+}
+
+
+
+#viewprofile{
+  width: 196px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-left: 501px;
+}
+
+#profileimage{
+  margin-left: 492px;
+}
+#uname{
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  color: #ff5c02;
+  margin-top: 14px;
+ margin-left: 412px;
+}
+
+#username{
+  width: 293px;
+  height: 37px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 600;
+  background-color: white;
+  border: solid 1px rgb(217, 106, 8);
+  border-radius: 5px;
+  color:#ff5c02;
+  margin-left: 406px;
+  
+}
+
+#pwd{
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  
+  color: #ff5c02;
+  margin-top: 15px;
+  margin-left: 410px;
+}
+
+#password{
+  width: 293px;
+  height: 37px;
+  font-family: 'Roboto';
+  font-size: 10px;
+  font-weight: 600;
+ 
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #ff5c02;
+  border-radius: 5px;
+  color: orangered;
+  margin-top: 2px;
+  margin-left: 405px;
+  position: relative;
+  
+}
+
+#pwdeye{
+  top: 352px;
+  margin-left: 676px;
+  position: absolute;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+ 
+}
+
+
+#username::placeholder,
+#password::placeholder{
+ padding-left: 5px;
+ color: #000;
+ font-size: 12px;
+ 
+}
+#edit-btn{
+  width: 297px;
+  height: 38px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+  margin-left: 392px;
+  background-color: #ff5c02;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  border: solid 1px #ff5c02;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  left: 13px;
+  text-align: center;
+  position: relative;
+  
+
+
+}
+
+#editimage{
+  top: 414px;
+  left: 664px;
+  z-index: 1;
+  position: absolute;
+}
+
+#ca{
+  width: 143px;
+  height: 39px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #ff5c02;
+  border-color: #ff5c02;
+  border-style: solid;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 19px;
+  margin-left: 408px;
+ }
+
+ #sv{
+  width: 143px;
+  height: 39px;
+  border-radius: 4px;
+  background-color: #ff5c02;
+  color: white;
+  border-color:  #ff5c02;
+  border-style: solid;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  margin-top: -39px;
+  margin-left: 562px;
+ }
+
+ 

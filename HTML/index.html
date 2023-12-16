@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,400;1,500;1,900&display=swap"
+        rel="stylesheet">
+    <title>Addmin Page </title>
+    <script src="../JAVASCRIPT/adminlogin.js"></script>
+    <style>
+        .slideshow-container {
+            position: relative;
+            max-width: 500px;
+
+        }
+
+        .slide {
+            display: none;
+
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+        }
+
+        .radio-buttons {
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 200px;
+            width: 500px;
+
+
+
+        }
+
+
+
+        input[type="radio"]+label {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            cursor: pointer;
+            margin: 0 5px;
+
+        }
+
+        input[type="radio"]:checked+label {
+            background-color: #a10c0c;
+
+            position: relative;
+            width: 30px;
+            height: 30px;
+            margin: 0 16px;
+            border: solid 2px #fff;
+        }
+
+        .blure1 {
+            position: absolute;
+            width: 900px;
+            height: 800px;
+            background-image: url(../images/1.png);
+
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .blure2 {
+            position: absolute;
+            width: 900px;
+            height: 800px;
+            background-image: url(../images/2.png);
+
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .blure3 {
+            position: absolute;
+            width: 900px;
+            height: 800px;
+            background-image: url(../images/3.png);
+
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .blure4 {
+            position: absolute;
+            width: 900px;
+            height: 800px;
+            background-image: url(../images/4.png);
+
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .blure5 {
+            position: absolute;
+            width: 900px;
+            height: 800px;
+            background-image: url(../images/5.png);
+
+            background-size: cover;
+            background-position: center;
+            filter: blur(5px);
+            z-index: -1;
+        }
+
+        .img1 {
+            margin-left: 200px;
+            margin-top: 200px;
+        }
+
+        .radio1 {
+            width: 20px;
+            height: 20px;
+        }
+
+        .radio2 {
+            width: 20px;
+            height: 20px;
+        }
+
+        .radio3 {
+            width: 20px;
+            height: 20px;
+        }
+
+        .radio4 {
+            width: 20px;
+            height: 20px;
+
+        }
+
+        .radio5 {
+            width: 20px;
+            height: 20px;
+
+        }
+
+        .Ram-Ghat {
+            font-family: Roboto;
+            font-size: 40px;
+            font-weight: 900;
+            position: absolute;
+            margin-left: 350px;
+            width: 500px;
+            color: white;
+        }
+
+        .mainpage {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .adminlogindetails {
+            position: relative;
+            margin-top: -600px;
+            margin-left: 1050px;
+
+        }
+
+        .Ujjain-Darshan123 {
+            width: 305.9px;
+            height: 147px;
+            margin-left: 10px;
+            margin-bottom: 18px;
+        }
+
+
+
+
+
+
+        #logo {
+            width: 253.9px;
+            height: 100px;
+            margin: 0 206.1px 20px 0;
+            object-fit: contain;
+        }
+
+        #welcome {
+            width: 451px;
+            height: 47px;
+            margin: 5px;
+            font-family: Roboto;
+            font-size: 30px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #000;
+            margin-left: 15px;
+            margin-top: -32px;
+        }
+
+        #ujjain {
+            font-family: Roboto;
+            font-size: 70px;
+            font-weight: bold;
+
+            color: #FF5F1F;
+        }
+
+        .click {
+            width: 800px;
+        }
+
+        #Account {
+            margin-top: -25px;
+            font-family: sans-serif;
+            font-size: 18px;
+        }
+
+        #mobile {
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            border: solid 1px #FF5F1F;
+            border-radius: 5px;
+            color: #fbcaaf;
+
+            margin-top: 15px;
+            width: 460px;
+            height: 40px;
+        }
+
+        ::placeholder {
+            color: #fbcaaf;
+        }
+
+        #Password {
+            width: 460px;
+            height: 40px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            border: solid 1px #FF5F1F;
+            border-radius: 5px;
+            color: #FF5F1F;
+
+            margin-top: 17px;
+        }
+
+        .submit {
+
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            background-color: #FF5F1F;
+            color: white;
+            border: solid 1px #FF5F1F;
+            border-radius: 9px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            width: 490px;
+            height: 60px;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+
+        }
+
+        .refer {
+
+            color: #FF5F1F;
+            font-weight: 600;
+            font-family: system-ui;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .dashboardlink {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        h2 {
+            margin-top: -31px;
+            font-family: roboto;
+            margin-left: 17px;
+        }
+
+        #Registration {
+            margin-top: -20px;
+            margin-left: 10px;
+        }
+
+        .d {
+            font-family: 'roboto';
+            font-size: 50px;
+            font-weight: bold;
+            color: #ff5c02;
+            margin-top: -12px;
+            margin-left: 11px;
+        }
+
+        .box {
+
+            height: 55px;
+            width: 414px;
+            border-radius: 8px;
+            border: solid 1px #ff5c02;
+            margin-bottom: 16px;
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+
+
+        .box1 {
+
+            height: 55px;
+            width: 414px;
+            border-radius: 8px;
+            border: solid 1px #ff5c02;
+            margin-left: 11px;
+            padding-left: 20px;
+        }
+
+        .button1 {
+
+            width: 436px;
+            height: 57px;
+            /* margin-bottom: 26px; */
+            margin-top: 10px;
+            border-radius: 8px;
+            border: 1px #ff5c02 solid;
+            background-color: #ff5c02;
+            border: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+            margin-left: 13px;
+        }
+
+        .eye_icon {
+            width: 26px;
+            position: absolute;
+            top: 419px;
+            left: 401px;
+            cursor: pointer;
+        }
+
+        #pwdeye {
+            width: 28px;
+            position: absolute;
+            top: 417px;
+            left: 389px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+        <div class="slide fade">
+            <div class="blure1"></div>
+            <img class="img1" src="../images/1.png" alt="Image 1">
+            <div>
+                <p class="Ram-Ghat">Ram Ghat1</p>
+            </div>
+        </div>
+        <div class="slide fade">
+            <div class="blure2"></div>
+            <img class="img1" src="../images/2.png" alt="Image 2">
+            <div>
+                <p class="Ram-Ghat">Ram Ghat2</p>
+            </div>
+        </div>
+        <div class="slide fade">
+            <div class="blure3"></div>
+            <img class="img1" src="../images/3.png" alt="Image 4">
+            <div>
+                <p class="Ram-Ghat">Ram Ghat3</p>
+            </div>
+        </div>
+        <div class="slide fade">
+            <div class="blure4"></div>
+            <img class="img1" src="../images/4.png" alt="Image 5">
+            <div>
+                <p class="Ram-Ghat">Ram Ghat4</p>
+            </div>
+        </div>
+        <div class="slide fade">
+            <div class="blure5"></div>
+            <img class="img1" src="../images/5.png" alt="Image 5">
+            <div>
+                <p class="Ram-Ghat">Ram Ghat5</p>
+            </div>
+        </div>
+        <!-- Add more slides as needed -->
+
+        <div class="radio-buttons">
+            <input class="radio1" type="radio" name="slide" id="radio1" checked>
+            <input class="radio2" type="radio" name="slide" id="radio2">
+            <input class="radio3" type="radio" name="slide" id="radio3" checked>
+            <input class="radio4" type="radio" name="slide" id="radio4">
+            <input class="radio4" type="radio" name="slide" id="radio4">
+
+            <!-- Add more radio buttons corresponding to the slides -->
+
+        </div>
+
+    </div>
+
+    <div class="adminlogindetails">
+        <img class="Ujjain-Darshan123" src="../images/ujjain logo.jpg" alt="">
+        <p id="welcome">Welcome to Admin Panel</p>
+        <p class="d">Sri Siva Bhakthi Nivas</p>
+        <h2>Please Login into your Account</h2>
+
+        <!-- <form id="form">
+            <div class="box">
+                <input type="text" placeholder="Admin Username" id="mobile">
+            </div>
+
+            <input type="text" placeholder="Password" id="Password"> <br>
+            <a class="dashboardlink" href="../HTML/Dashboard.html"><button class="submit">Login</a></button>
+
+        </form> -->
+
+        <a action="#" id="Registration">
+            <input class="box" type="text" name="mobileNumber" id="mobileNumber" placeholder="Admin Username"
+                required><br>
+            <input class="box1" type="" name="password" id="password" placeholder="password" required><br>
+            <img id="pwdeye" src="../images/pass-hide1.png" onclick="pass()" alt="">
+            <a href="../HTML/Dashboard.html"><input class="button1" type="submit"
+                    name="registrationbtn" id="registrationbtn" value="Login"><br></a>
+            </form>
+    </div>
+
+
+</body>
+
+</html>
